@@ -1,0 +1,75 @@
+*{
+  margin:0;
+  padding:0;
+  box-sizing:border-box;
+  font-family: 'Poppins', sans-serif;
+}
+
+body{
+  min-height:100vh;
+  background: linear-gradient(135deg,#0f2027,#203a43,#2c5364);
+  color:#fff;
+}
+
+/* HERO */
+.hero{
+  text-align:center;
+  padding:80px 20px;
+}
+
+.hero h1{
+  font-size:40px;
+  font-weight:600;
+}
+
+.hero p{
+  margin-top:10px;
+  opacity:0.85;
+}
+
+/* CARDS */
+.container{
+  display:flex;
+  justify-content:center;
+  gap:25px;
+  flex-wrap:wrap;
+  padding:40px 20px;
+}
+
+.card{
+  width:280px;
+  padding:30px;
+  border-radius:20px;
+  background: rgba(255,255,255,0.1);
+  backdrop-filter: blur(15px);
+  box-shadow:0 10px 40px rgba(0,0,0,0.4);
+  text-align:center;
+  transition:0.4s;
+}
+
+.card:hover{
+  transform:translateY(-12px) scale(1.03);
+}
+
+.card h2{
+  margin:15px 0;
+}
+
+.card a{
+  display:inline-block;
+  margin-top:15px;
+  padding:12px 22px;
+  border-radius:30px;
+  background:#00e5ff;
+  color:#000;
+  font-weight:600;
+  text-decoration:none;
+}
+
+/* FOOTER */
+footer{
+  text-align:center;
+  padding:25px;
+  opacity:0.6;
+  font-size:14px;
+  }
